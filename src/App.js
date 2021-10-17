@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./app.css";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,38 +11,20 @@ function App() {
   return (
     <Router>
       <div>
+        {/*navbar is rendered on all pages */}
         <div className="navbar">
           <Link className="link" to="/">Home</Link>
           <Link className="link" to="/about">About</Link>
         </div>
+        
         <Switch>
           <Route path="/" component={HomePage} exact>
           </Route>
           <Route path="/about" component={AboutPage}>
           </Route>
         </Switch>
-
       </div>
     </Router>
   );
-  /*return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );*/
 }
-
 export default App;

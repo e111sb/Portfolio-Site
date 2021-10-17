@@ -1,4 +1,5 @@
 import "./projectComp.css";
+//Individual project tile component. Requries a heading, subheading, description and list of skills to render correctly.
 function ProjectComp(props) {
     return(
         <div className="project">
