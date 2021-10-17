@@ -21,17 +21,24 @@
     background: linear-gradient(90deg, rgba(121,9,100,1) 15%, rgba(133,88,130,1) 60%, rgba(45,199,179,1) 100%);
 }
 h1.projectHeading {
+    color: white;
     font-size: 1.5em;
 }
 h2.projectSubHeading {
+    color: white;
     margin : 3%;
 }
 h2.skills {
+    color: white;
     font-size: 1.25em;
     margin-left: 1%;
     margin-right: 1%;
 }
+h2.className {
+    color : white;
+}
 p {
+    color: white;
     margin-top: 0;
     margin-left: 1em;
     margin-right: 1em;
