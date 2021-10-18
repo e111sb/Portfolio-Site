@@ -7,14 +7,14 @@ function HomePage() {
         <h1 className="title">Ellis Bowman</h1>
         <h2 className="subTitle">Enthusiastic and receptive developer</h2>
         <a href="https://github.com/e111sb">
-            <h2 className="link">Github</h2>
+            <h2 className="mainLink">Github</h2>
         </a>
     </div>
         <div className="projectContainer">
             <ProjectComp 
             heading="e111s.com" 
-            subHeading="Dynamic Website with Static Content" 
-            description="This is a simple website containing static content which features dynamic resizing, allowing this site to look great on a variety of different devices."
+            subHeading="Responsive Website with Static Content" 
+            description="This is a simple website containing static content which features responsive resizing, allowing this site to look great on a variety of different devices."
             skills="React, JavaScript, CSS, Web Development"
             link="https://github.com/e111sb/Portfolio-Site"/>
 

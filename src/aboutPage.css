@@ -1,19 +1,19 @@
 .aboutPage {
     position: absolute;
-    min-height: 110vh;
+    min-height: 100vh;
     min-width: 100vw;
     background: linear-gradient(90deg, rgba(121,9,100,1) 15%, rgba(133,88,130,1) 60%, rgba(45,199,179,1) 100%);
-    margin: 0;
 }
 h1.aboutPageTitle {
-    margin: 1em;
+    margin-top: 11vh;
+    margin-left: 1em;
     color: white;
 }
 p.aboutPageText {
-    margin: 0;
     margin-left: 1em;
-    margin-right: 10em;
+    margin-right: 22.5vw;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
     font-size: 1.5em;
-
     color: white;
 }

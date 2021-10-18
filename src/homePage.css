@@ -2,7 +2,7 @@
     position: relative;
     height: 55vh;
     width: 100%;
-    min-height: 175px;
+    min-height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,26 +13,19 @@
 }
 
 h1.title {
-    margin: 0;
     font-size: 2.5em;
     font-family: Helvetica;
 }
 
 h2 {
     color: white;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-a {
-    margin: 0;
-}
-h2.link {
+h2.mainLink {
     text-decoration: underline;
-    margin: 0;
 }
 .projectContainer {
-    position: relative;
-    height : 100vh;
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
