@@ -7,7 +7,7 @@ function HomePage() {
         <h1 className="title">Ellis Bowman</h1>
         <h2 className="subTitle">Enthusiastic and receptive developer</h2>
         <a href="https://github.com/e111sb">
-            <h2 className="mainLink">Github</h2>
+            <h2 className="link">Github</h2>
         </a>
     </div>
         <div className="projectContainer">

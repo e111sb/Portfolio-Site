@@ -1,3 +1,8 @@
+* {
+  margin : 0;
+  color : white;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -11,13 +16,12 @@
   height: 10vh;
   min-height: 30px;
 }
-.link {
-  color: white;
+.mainLink {
   text-decoration: none;
   font-size: 1.4em;
   font-weight: bold;
   margin-left : 2em;
 }
-* {
-  margin : 0;
+.link {
+  text-decoration: underline;
 }

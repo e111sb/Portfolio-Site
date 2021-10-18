@@ -13,8 +13,8 @@ function App() {
       <div>
         {/*navbar is rendered on all pages */}
         <div className="navbar">
-          <Link className="link" to="/">Home</Link>
-          <Link className="link" to="/about">About</Link>
+          <Link className="mainLink" to="/">Home</Link>
+          <Link className="mainLink" to="/about">About</Link>
         </div>
         
         <Switch>
