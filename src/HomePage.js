@@ -12,12 +12,20 @@ function HomePage() {
     </div>
         <div className="projectContainer">
             <ProjectComp 
-            heading="e111s.com" 
-            subHeading="Responsive Website with Static Content" 
-            description="This is a simple website containing static content which features responsive resizing, allowing this site to look great on a variety of different devices."
-            skills="React, JavaScript, CSS, Web Development"
-            link="https://github.com/e111sb/Portfolio-Site"/>
-
+                heading="e111s.com" 
+                subHeading="Responsive Website with Static Content" 
+                description="This is a simple website containing static content which features responsive resizing, allowing this site to look great on a variety of different devices."
+                skills="React, JavaScript, CSS, Web Development"
+                link="https://github.com/e111sb/Portfolio-Site"
+            />
+            
+            <ProjectComp 
+                heading="Discord API Bot" 
+                subHeading="Upcoming Rocket Launch Discord Bot"
+                description="This is a Discord chat bot created using the Discord.js library. It allows the user to enter parameters or just enter a command in a discord server in order to get data from The Space Devs launch API."
+                skills="JavaScript, APIs"
+                link="https://github.com/e111sb/RocketAPI-Discord-Bot"
+            />
         </div>
     </div>
 
